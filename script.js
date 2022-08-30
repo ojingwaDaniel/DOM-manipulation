@@ -1,7 +1,6 @@
-let submit = document.getElementById('btn')
-// submit.addEventListener('click',()=>{
-//     alert('try put password wee strong o')
-// })
+let password = document.querySelector('form input[type = password]')
+console.log(password.value)
+
 let p = document.getElementsByTagName('p')
 let inpt = document.getElementsByTagName('input')
 let para = document.querySelector('section p')
