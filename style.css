@@ -2,3 +2,12 @@ h1{
     color: blue;
     text-align: center;
 }
+section p{
+    text-align: center;
+}
+img{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 2%;
+}
