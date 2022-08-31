@@ -37,3 +37,19 @@ firstDecison.parentElement
 firstDecison.nextElementSibling
 {/* <li>​…​</li>​ */}
 firstDecison.nextSibling
+let parenting = document.querySelector('ul')
+parenting.children
+// HTMLCollection(5) [li, li, li, li, li]
+parenting.children[2]
+{/* <li>​…​</li>​ */}
+let thirdDecison = parenting.children[2]
+undefined
+thirdDecison
+{/* <li>​…​</li>​ */}
+ let secondDecison =thirdDecison.previousElementSibling
+ // SELECTING MUTIPLE ITEMS
+ let decisions = document.querySelectorAll('li')
+ for (let decision of decisions) {
+    decision.innerText += '  \nGOD WILL HELP US ACHEIVE THIS'
+    
+ }
