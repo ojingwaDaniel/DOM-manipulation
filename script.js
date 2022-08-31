@@ -1,3 +1,16 @@
+
+let range = document.querySelector('form input[type = range]')
+undefined
+range.value
+// '197'
+range.getAttribute('min')
+// '20'
+range.setAttribute('min',100)
+undefined
+range.getAttribute('min')
+// '100'
+
+
 let password = document.querySelector('form input[type = password]')
 console.log(password.value)
 
