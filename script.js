@@ -30,3 +30,10 @@ step2.innerHTML = '<i>take a decision to be serious with God</i> \n <b> this so 
 for(let ipt of inpt){
     console.log(ipt.value)
 }
+const firstDecison = document.querySelector('li')
+undefined
+firstDecison.parentElement
+{/* <ul>​…​</ul>​ */}
+firstDecison.nextElementSibling
+{/* <li>​…​</li>​ */}
+firstDecison.nextSibling
