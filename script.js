@@ -10,8 +10,14 @@ undefined
 range.getAttribute('min')
 // '100'
 
+let username  = document.querySelector('input[type = text]')
+{/* <input type=​"text" name id placeholder=​"username">​ */}
+
+
 
 let password = document.querySelector('form input[type = password]')
+password.setAttribute('placeholder','please enter your password')
+
 console.log(password.value)
 
 let p = document.getElementsByTagName('p')
