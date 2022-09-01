@@ -2,6 +2,10 @@ h1{
     color: blue;
     text-align: center;
 }
+h1:hover{
+    color: red;
+    font-size: 40px;
+}
 section p{
     text-align: center;
 }
