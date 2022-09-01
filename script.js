@@ -55,6 +55,11 @@ thirdDecison
  }
 
 
-const li  = document.querySelector('li')
+const alldecisons  = document.querySelectorAll('li')
+let colors = ['red','blue','orange','purple','orchid','green','red','blue','orange','purple','green']
+alldecisons.forEach((li,idx)=>{
+    li.style.color = colors[idx]
+
+})
 
 
