@@ -55,19 +55,23 @@ thirdDecison
  }
 
 
-const alldecisons  = document.querySelectorAll('li')
-let colors = ['red','blue','orange','purple','red','green','red','blue','orange','purple','green']
-alldecisons.forEach((li,idx)=>{
-    li.style.color = colors[idx]
-    li.style.backgroundColor = 'grey'
+// const alldecisons  = document.querySelectorAll('li')
+// let colors = ['red','blue','orange','purple','red','green','red','blue','orange','purple','green']
+// alldecisons.forEach((li,idx)=>{
+//     li.style.color = colors[idx]
+//     li.style.backgroundColor = 'grey'
 
-})
+// })
+// getComputedStyle in DOM
 let valueOfHEading = document.querySelector('h1')
 let value  =getComputedStyle(valueOfHEading)
 console.log(value.color)
 console.log(value.backgroundColor)
 console.log(value.fontSize)
 console.log(value.fontFamily)
-
-
-
+// manipulating classes
+let neededItem = document.querySelector('.item')
+// neededItem.style.color = 'orange'
+// neededItem.style.textDecoration = 'line-through'
+// neededItem.style.opacity = '50%'
+neededItem.classList.toggle('changed')
