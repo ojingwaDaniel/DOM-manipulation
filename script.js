@@ -53,3 +53,8 @@ thirdDecison
     decision.innerText += '  \nGOD WILL HELP US ACHEIVE THIS'
     
  }
+
+
+const li  = document.querySelector('li')
+
+
