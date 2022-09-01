@@ -62,5 +62,12 @@ alldecisons.forEach((li,idx)=>{
     li.style.backgroundColor = 'grey'
 
 })
+let valueOfHEading = document.querySelector('h1')
+let value  =getComputedStyle(valueOfHEading)
+console.log(value.color)
+console.log(value.backgroundColor)
+console.log(value.fontSize)
+console.log(value.fontFamily)
+
 
 
