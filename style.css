@@ -31,3 +31,16 @@ img{
     text-decoration: none;
     color: white
 }
+.item{
+    color: red;
+    font-size: larger;
+}
+.changed{
+    color: purple;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: line-through;
+}
+.step2{
+    text-align: center;
+}
