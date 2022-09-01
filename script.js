@@ -75,3 +75,19 @@ let neededItem = document.querySelector('.item')
 // neededItem.style.textDecoration = 'line-through'
 // neededItem.style.opacity = '50%'
 neededItem.classList.toggle('changed')
+neededItem.classList.toggle('changed')
+neededItem.classList.toggle('changed')
+// creating new element on javascript
+let heading = document.createElement('h1')
+heading.innerText = 'STEPS TO SUCCESS ON PROFESSION'
+let h1 = document.querySelector('p')
+h1.append(heading)
+let image = document.createElement('img')
+image.src = 'images/God.jfif'
+image.style.width = '500px'
+// let second = document.querySelector('i')
+// second.appendChild(image)
+let motivation  = document.createElement('a')
+motivation.innerText = 'a motivation to keep you going'
+motivation.href = 'https://www.youtube.com/watch?v=fxIlVbvOHyY'
+document.body.appendChild(motivation)
