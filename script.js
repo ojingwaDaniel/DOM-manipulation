@@ -85,9 +85,14 @@ h1.append(heading)
 let image = document.createElement('img')
 image.src = 'images/God.jfif'
 image.style.width = '500px'
-// let second = document.querySelector('i')
-// second.appendChild(image)
+let second = document.querySelector('p.step2')
+second.insertAdjacentElement('beforebegin',image)
 let motivation  = document.createElement('a')
 motivation.innerText = 'a motivation to keep you going'
 motivation.href = 'https://www.youtube.com/watch?v=fxIlVbvOHyY'
 document.body.appendChild(motivation)
+let newli = document.createElement('li')
+newli.innerText = 'HAVE A PLAN AND FOLLOW IT'
+let locatedsite = document.querySelector('.items')
+locatedsite.insertAdjacentElement('beforeend',newli)
+newli.classList.toggle('item')
